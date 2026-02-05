@@ -20,8 +20,8 @@ const PROFILE_PATH = "/home/ubuntu/.clawdbot/agents/main/agent/auth-profiles.jso
 const TOKEN_URL = "https://oauth2.googleapis.com/token";
 
 // OAuth credentials (same as OpenClaw uses)
-const CLIENT_ID = Buffer.from("MTA3MTAwNjA2MDU5MS10bWhzc2luMmgyMWxjcmUyMzV2dG9sb2poNGc0MDNlcC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbQ==", 'base64').toString();
-const CLIENT_SECRET = Buffer.from("R09DU1BYLUs1OEZXUjQ4NkxkTEoxbUxCOHNYQzR6NnFEQWY=", 'base64').toString();
+const CLIENT_ID = Buffer.from("==", 'base64').toString();
+const CLIENT_SECRET = Buffer.from("=", 'base64').toString();
 
 // Project ID found in auth profile or fallback
 const FALLBACK_PROJECT_ID = "junoai-465910"; 
